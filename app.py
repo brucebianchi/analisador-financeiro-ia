@@ -121,7 +121,7 @@ Você é um analista financeiro com conhecimento em Inteligência Artificial. Co
 
 {texto_analises}
 
-Seja direto e claro em sua análise, usando uma linguagem acessível para tomadores de decisão.
+Seja direto e claro em sua análise, usando uma linguagem acessível para tomadores de decisão. Compare o desempenho do ano atual com o ano anterior. O que melhorou, o que piorou e o que merece atenção?
 """
             resposta = groq_client.chat.completions.create(
                 model="llama3-70b-8192",
